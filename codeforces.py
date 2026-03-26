@@ -1,0 +1,10 @@
+a=input()
+b=len(a)
+f=str(b-2)
+if(b>10):
+    c=a[0]
+    d=a[b-1]
+    e=c+f+d
+    print(e)
+else:
+    print(a)
