@@ -114,30 +114,92 @@
 #     if i not in nums:
 #         print(i)
 #----------------------------------------------
-haystack=input()
-needle=input()
-if not needle:
-    print(0)
-a=needle[0]
-b=None
-for i in range(len(haystack)):
-    if haystack[i]==a:
-        b=i
-        k=i
-        for j in range(len(needle)):
-            if k>len(haystack)-1:
-                b=None
-                break
-            if(haystack[k]!=needle[j]):
-                  b=None
-                  break
-            else:
-                 k+=1
-        else:
-            break
+# haystack=input()
+# needle=input()
+# if not needle:
+#     print(0)
+# a=needle[0]
+# b=None
+# for i in range(len(haystack)):
+#     if haystack[i]==a:
+#         b=i
+#         k=i
+#         for j in range(len(needle)):
+#             if k>len(haystack)-1:
+#                 b=None
+#                 break
+#             if(haystack[k]!=needle[j]):
+#                   b=None
+#                   break
+#             else:
+#                  k+=1
+#         else:
+#             break
 
-if b==None:
-    print(-1)
-else:
-    print(b)
-    
+# if b==None:
+#     print(-1)
+# else:
+#     print(b)
+#-----------------------------
+# t=int(input())
+# ab=[]
+# for k in range(t):
+#     n,h,l=map(int,input().split())
+#     a=list(map(int,input().split()))
+#     a.sort()
+#     ans=0
+#     i=0
+#     j=len(a)-1
+#     if h>=l:
+#         while(i<j):
+#             if (a[i]<=l and a[j]<=h):
+#                 i+=1
+#                 j-=1
+#                 ans+=1
+#             elif(a[i]>l and a[j]<=h):
+#                 i+=1
+#             else:
+#                 j-=1
+#     else:
+#         while(i<j):
+#             if (a[i]<=h and a[j]<=l):
+#                 i+=1
+#                 j-=1
+#                 ans+=1
+#             elif(a[i]>h and a[j]<=l):
+#                 i+=1
+#             else:
+#                 j-=1
+#     ab.append(ans)
+# for x in ab:
+#     print(x)
+#----------------------------------------------
+# a=input()
+# b=input()
+# a=a.lower()
+# b=b.lower()
+# if a<b:
+#     print(-1)
+# elif a==b:
+#     print(0)
+# elif a>b:
+#     print(1)
+#-------------------------------------------------
+# a=input()
+# b=0
+# c=[]
+# for x in a:
+#     if x not in c:
+#         c.append(x)
+#         b+=1
+# if b%2==0:
+#     print("CHAT WITH HER!")
+# else:
+#     print("IGNORE HIM!")
+#-------------------------------------------------------
+def incre(age):
+    age+=1
+    return age
+age=12
+incre(age)
+print(age)
