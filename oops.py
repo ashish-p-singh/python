@@ -62,8 +62,3 @@
 # obj.Withdraw()
 # obj.display_balance()
 #--------------------------------------------------
-# def f(a):
-# 	b=a
-# 	b.append(7)
-# 	return a
-# print(f([1,2,3]))
