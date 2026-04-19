@@ -5,3 +5,9 @@ def od(a):
     else:
        print("Odd")
 od(a=b)
+#0-------------------------------------------
+i = 1
+
+while i <= 5:
+    print("Number:", i)
+    i += 1
