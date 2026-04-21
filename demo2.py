@@ -1,10 +1,10 @@
-b=int(input())
-def od(a):
-    if(a%2==0):
-       print("Even")
-    else:
-       print("Odd")
-od(a=b)
+# b=int(input())
+# def od(a):
+#     if(a%2==0):
+#        print("Even")
+#     else:
+#        print("Odd")
+# od(a=b)
 #0-------------------------------------------
 i = 1
 

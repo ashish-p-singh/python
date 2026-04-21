@@ -53,3 +53,8 @@
 #         d+=1
 # print(d)
 #--------------------------------------
+a=int(input())
+for i in range(a):
+    c=int(input())
+    c+=1
+    print(c)
